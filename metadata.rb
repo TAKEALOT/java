@@ -1,10 +1,10 @@
-name              'java'
-maintainer        'Agile Orbit'
-maintainer_email  'info@agileorbit.com'
+name              'tal_java'
+maintainer        'Takealot platform'
+maintainer_email  'platform@takealot.com'
 license           'Apache-2.0'
 description       'Installs Java runtime.'
-long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version           '1.50.0'
+long_description  'See description'
+version           '0.0.1'
 
 recipe 'java::default', 'Installs Java runtime'
 recipe 'java::default_java_symlink', 'Updates /usr/lib/jvm/default-java'
